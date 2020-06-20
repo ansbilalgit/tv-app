@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	padding: 0;
+ } 
+#intro 
+{ 
+    left: 0px; 
+    top: 0px; 
+    position: relative; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1920px;
+    height: 1080px; 
+    overflow: hidden;
+    z-index:0;
+} 
+#intro .blankbackground 
+{ 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    width: 1920px;
+    height: 1080px;
+    z-index:1;
+} 
+#intro .mapbackground 
+{ 
+    left: -4px; 
+    top: -116px; 
+    position: absolute; 
+    width: 1928px;
+    height: 1314px;
+    z-index:2;
+} 
+#intro .yekbuntv 
+{ 
+    left: 538px; 
+    top: 782px; 
+    position: absolute; 
+    width: 958px;
+    height: 181px;
+    z-index:4;
+} 
+#intro .logo 
+{ 
+    left: 642px; 
+    top: 289px; 
+    position: absolute; 
+    width: 637px;
+    height: 502px;
+    z-index:5;
+} 

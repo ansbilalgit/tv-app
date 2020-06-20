@@ -1,0 +1,85 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#intro {
+    left: 0px;
+    top: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+#intro .blankbackground {
+    left: 0px;
+    top: 0px;
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /* position: relative; */
+    background-color: #1f1f1f;
+    /**background-color: #ffffff;**/
+}
+
+#intro .mapbackground {
+    /* left: -4px;
+    top: -116px; */
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0.4;
+}
+
+#intro .mapbackground img {
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+#intro .yekbuntv {
+    /* left: 538px; */
+    top: 76%;
+    position: absolute;
+    width: 47%;
+    /* height: 181px; */
+    z-index: 4;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+#intro .yekbuntv img {
+    width: 100%;
+}
+
+#intro .logo {
+    /* left: 642px; */
+    /* top: 289px; */
+    top: 28%;
+    position: absolute;
+    width: 30%;
+    /* height: 100%; */
+    z-index: 55;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#intro .logo img {
+    width: 100%;
+}
