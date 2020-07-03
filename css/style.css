@@ -274,3 +274,164 @@ footer p {
     height: 400px;
     background-color: #ffffff;
 }
+
+
+
+
+
+/* new */
+
+
+/* add related */
+
+#ad .yekbuntv {
+    top: 19%;
+    position: absolute;
+    width: 47%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-right: 17.5%;
+    background-color: black;
+}
+
+#ad .yekbuntv img {
+    width: 100%;
+}
+
+#ad .logo {
+    top: 10%;
+    position: absolute;
+    width: 20%;
+    z-index: 55;
+    margin: auto;
+    left: -50%;
+    right: 0;
+    text-align: center;
+}
+
+#ad .logo img {
+    width: 100%;
+}
+
+
+
+#ad .centerbanner {
+    top: 43%;
+    position: absolute;
+    width: 47%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-right:22.5%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+/* #ad .centerbanner img {
+    width: 100%;
+} */
+
+#ad .Qeydkirin {
+    top: 63%;
+    position: absolute;
+    width: 20%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-right: 20.5%;
+}
+
+#ad .Qeydkirin img {
+    width: 80%;
+}
+
+#ad .Derbasbûn {
+    top: 63%;
+    position: absolute;
+    width: 20%;
+    z-index: 55;
+    margin: auto;
+    left: 0%;
+    right: 0;
+}
+
+#ad .Derbasbûn img {
+    width: 80%;
+}
+
+/* #ad .QeydkirinBBanner  {
+    width: 80px;
+    height: 70px;
+    background-color: white;
+    top: 50%;padding: 20%;
+}
+
+
+
+#ad .DerbasbûnBBanner  {
+    width: 80px;
+    height: 70px;
+    background-color: white;
+    padding: 20%;
+} */
+
+#ad .FrameBanner  {
+    width: 80px;
+    height: 70px;
+    background-color: white;
+    padding: 20%;
+}
+
+/* -------------------livestream start ---------- */
+#ad .HeadingTitle
+{
+    top: 10px;
+}
+
+#ad .SocialMainDiv
+{
+    height: 138px;
+    width: 130px;
+    float: right;
+    margin-top: 25px;
+}
+
+#ad .SocialInternalDiv
+{
+    margin-top: 80px;
+}
+
+#ad .SocialImageDiv
+{
+    float: left;
+}
+
+.SocialImageIcon
+{
+    width: 80px;
+    height:35px;
+    display:inline-block;
+    margin-left:5px;
+    margin-top: 4px;
+}
+
+.MessageImageIcon
+{
+    width: 20px;
+    height:20px;
+    margin-left:5px;
+    margin-top: 4px;
+}
+
+.circleImageIcon
+{
+    width: 25px;
+    height:25px;
+    display:inline-block;
+    margin-left:5px;
+    margin-top: 4px;
+}
+
+/* -------------------livestream end ---------- */
