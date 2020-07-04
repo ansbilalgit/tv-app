@@ -385,12 +385,30 @@ footer p {
 }
 
 /* -------------------livestream start ---------- */
-#ad .HeadingTitle
+.HeadingTitleVideoParentDiv
+{
+    height: 350px;
+}
+.HeadingTitleVideoMainDiv
+{
+    height: 60px;
+}
+.HeadingTitleVideo
 {
     top: 10px;
+    margin-top: 15px;
+    float: left;
 }
 
-#ad .SocialMainDiv
+.HeadingTitle
+{
+    top: 10px;
+    margin-top: 15px;
+    float: right;
+    margin-right: 5px;
+}
+
+.SocialMainDiv
 {
     height: 138px;
     width: 130px;
@@ -398,12 +416,28 @@ footer p {
     margin-top: 25px;
 }
 
-#ad .SocialInternalDiv
+.MessageMainDiv
+{
+    height: 138px;
+    width: 130px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+.CircleMainDiv
+{
+    height: 138px;
+    width: 130px;
+    float: left;
+    margin-top: 25px
+}
+
+.SocialInternalDiv
 {
     margin-top: 80px;
 }
 
-#ad .SocialImageDiv
+.SocialImageDiv
 {
     float: left;
 }
@@ -416,7 +450,12 @@ footer p {
     margin-left:5px;
     margin-top: 4px;
 }
-
+.MessagecounDiv
+{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
 .MessageImageIcon
 {
     width: 20px;
@@ -433,5 +472,54 @@ footer p {
     margin-left:5px;
     margin-top: 4px;
 }
-
+.DeleteImageIconDiv
+{
+    width: 13px;
+    height:13px;
+    margin-top: 4px;
+    float: right;
+    margin-right: 20px;
+}
+.DeleteImageIconMainDiv
+{
+    height: 30px;
+}
+.SocialinfoMainDiv
+{
+    width: 400px;
+    float: right
+}
+.LiveStreamEmptySecondDiv
+{
+    width: 50px;
+    float: left;
+    margin-left: 90px;
+}
+.LiveStreamEmptyFirstDiv
+{
+    width: 100px;
+    float: left;
+    margin-left: 60px;
+}
+.VideoIconMainDiv
+{
+    height: 190px;
+    widows: 140px;
+    display:inline-block;
+}
+.VideoIconInterDiv
+{
+    width: 200px;
+    float: left;
+}
+.VideoSectionBGDiv
+{
+    height: 190px;
+    background-color: white;
+}
+.SearchBoxInputTag
+{
+    width: 250px;
+    height: 25px;
+}
 /* -------------------livestream end ---------- */
