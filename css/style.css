@@ -387,7 +387,8 @@ footer p {
 /* -------------------livestream start ---------- */
 .HeadingTitleVideoParentDiv
 {
-    height: 350px;
+    /* height: 350px; */
+    height: 320px;
 }
 .HeadingTitleVideoMainDiv
 {
@@ -521,5 +522,192 @@ footer p {
 {
     width: 250px;
     height: 25px;
+    display: flex;
 }
 /* -------------------livestream end ---------- */
+
+/* ------------------------lpstream start---------------- */
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .box {
+    /* height: 190px; */
+    height: 225px;
+    width: 23.3%;
+    /* border: 3px solid red; */
+    box-sizing: border-box;
+    margin: 8px;
+    display: flex;
+    background-color: white;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  .innerboxdiv {
+    height: 190px;
+    width: 23.3%;
+    /* border: 3px solid red; */
+    box-sizing: border-box;
+    margin: 8px;
+    display: flex;
+    background-color: white;
+  }
+  
+  .boxImage{
+    width: 100%;
+    height: 84%;
+    margin-top: 30px;
+    display: flex;
+    /* border: 1px solid green; */
+  }
+  .boxImage{
+    width: 100%;
+    display: flex;
+
+  }
+  
+
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+
+  .HeadingTitleLPVideo
+{
+    top: 10px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 30px;
+}
+
+.boxinnerdiv
+{
+    height: 5px;
+    width: 100%;
+    clear: both;
+}
+
+.flotleftdiv
+{
+    float: left;
+}
+
+
+.lpvideousericon
+{
+    width: 35px;
+    height:35px;
+    display:flex;
+    margin-left:3px;
+}
+
+.lpvideousernamemaindiv
+{
+    float: left;
+    margin-left: 6px;
+    margin-top: 10px;
+    font-size: 6px;
+}
+.lpvideousernamedatediv
+{
+    font-size: 6px;
+}
+
+.lpvideopublicicon
+{
+    width: 13px;
+    height:13px;
+    display:inline-block;
+    margin-left:40px;
+    margin-top: 12px;
+}
+
+.lpvideopublicdate
+{
+    float: left;
+    margin-left: 7px;
+    font-size: 8px;
+    margin-top: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* .fullSize {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.box {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    background-color: brown;
+} */
+/* line 7, ../../app/styles/_layout.scss */
+ /* .boxHeader {
+    -ms-flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    background-color: green;
+}
+/* line 12, ../../app/styles/_layout.scss */
+ .boxContent {
+    -ms-flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    flex: 1 0 auto;
+    -webkit-box-flex: 1.0;
+    background-color: yellow;
+} */
+/* line 18, ../../app/styles/_layout.scss */
+ /* .boxFooter {
+    -ms-flex: 0 1 auto;
+    -webkit-flex: 0 1 auto;
+    flex: 0 1 auto;
+    background-color: cornflowerblue;
+}
+.moreblue {
+    background-color: blue;
+}
+.moregreen {
+    background-color: darkgreen;
+}
+.red {
+    background-color: red;
+} */
