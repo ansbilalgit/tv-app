@@ -413,3 +413,427 @@ footer p {
     margin-bottom: 5px;
     margin-top: 0px;
 }
+
+
+
+
+/* new */
+
+
+/* add related */
+
+#ad .yekbuntv {
+    top: 19%;
+    position: absolute;
+    width: 47%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-right: 17.5%;
+    background-color: black;
+}
+
+#ad .yekbuntv img {
+    width: 100%;
+}
+
+#ad .logo {
+    top: 10%;
+    position: absolute;
+    width: 20%;
+    z-index: 55;
+    margin: auto;
+    left: -50%;
+    right: 0;
+    text-align: center;
+}
+
+#ad .logo img {
+    width: 100%;
+}
+
+
+
+#ad .centerbanner {
+    top: 43%;
+    position: absolute;
+    width: 47%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-right:22.5%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+/* #ad .centerbanner img {
+    width: 100%;
+} */
+
+#ad .Qeydkirin {
+    top: 63%;
+    position: absolute;
+    width: 20%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-right: 20.5%;
+}
+
+#ad .Qeydkirin img {
+    width: 80%;
+}
+
+#ad .Derbasbûn {
+    top: 63%;
+    position: absolute;
+    width: 20%;
+    z-index: 55;
+    margin: auto;
+    left: 0%;
+    right: 0;
+}
+
+#ad .Derbasbûn img {
+    width: 80%;
+}
+
+/* #ad .QeydkirinBBanner  {
+    width: 80px;
+    height: 70px;
+    background-color: white;
+    top: 50%;padding: 20%;
+}
+
+
+
+#ad .DerbasbûnBBanner  {
+    width: 80px;
+    height: 70px;
+    background-color: white;
+    padding: 20%;
+} */
+
+#ad .FrameBanner  {
+    width: 80px;
+    height: 70px;
+    background-color: white;
+    padding: 20%;
+}
+
+/* -------------------livestream start ---------- */
+.HeadingTitleVideoParentDiv
+{
+    /* height: 350px; */
+    height: 320px;
+}
+.HeadingTitleVideoMainDiv
+{
+    height: 60px;
+}
+.HeadingTitleVideo
+{
+    top: 10px;
+    margin-top: 15px;
+    float: left;
+}
+
+.HeadingTitle
+{
+    top: 10px;
+    margin-top: 15px;
+    float: right;
+    margin-right: 5px;
+}
+
+.SocialMainDiv
+{
+    height: 138px;
+    width: 130px;
+    float: right;
+    margin-top: 25px;
+}
+
+.MessageMainDiv
+{
+    height: 138px;
+    width: 130px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+.CircleMainDiv
+{
+    height: 138px;
+    width: 130px;
+    float: left;
+    margin-top: 25px
+}
+
+.SocialInternalDiv
+{
+    margin-top: 80px;
+}
+
+.SocialImageDiv
+{
+    float: left;
+}
+
+.SocialImageIcon
+{
+    width: 80px;
+    height:35px;
+    display:inline-block;
+    margin-left:5px;
+    margin-top: 4px;
+}
+.MessagecounDiv
+{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.MessageImageIcon
+{
+    width: 20px;
+    height:20px;
+    margin-left:5px;
+    margin-top: 4px;
+}
+
+.circleImageIcon
+{
+    width: 25px;
+    height:25px;
+    display:inline-block;
+    margin-left:5px;
+    margin-top: 4px;
+}
+.DeleteImageIconDiv
+{
+    width: 13px;
+    height:13px;
+    margin-top: 4px;
+    float: right;
+    margin-right: 20px;
+}
+.DeleteImageIconMainDiv
+{
+    height: 30px;
+}
+.SocialinfoMainDiv
+{
+    width: 400px;
+    float: right
+}
+.LiveStreamEmptySecondDiv
+{
+    width: 50px;
+    float: left;
+    margin-left: 90px;
+}
+.LiveStreamEmptyFirstDiv
+{
+    width: 100px;
+    float: left;
+    margin-left: 60px;
+}
+.VideoIconMainDiv
+{
+    height: 190px;
+    widows: 140px;
+    display:inline-block;
+}
+.VideoIconInterDiv
+{
+    width: 200px;
+    float: left;
+}
+.VideoSectionBGDiv
+{
+    height: 190px;
+    background-color: white;
+}
+.SearchBoxInputTag
+{
+    width: 250px;
+    height: 25px;
+    display: flex;
+}
+/* -------------------livestream end ---------- */
+
+/* ------------------------lpstream start---------------- */
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .box {
+    height: 225px;
+    width: 23.3%;
+    box-sizing: border-box;
+    margin: 8px;
+    display: flex;
+    background-color: white;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  .innerboxdiv {
+    height: 190px;
+    width: 23.3%;
+    /* border: 3px solid red; */
+    box-sizing: border-box;
+    margin: 8px;
+    display: flex;
+    background-color: white;
+  }
+  
+  .boxImage{
+    width: 100%;
+    height: 84%;
+    margin-top: 30px;
+    display: flex;
+  }
+  .boxImage{
+    width: 100%;
+    display: flex;
+
+  }
+  
+
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+
+  .HeadingTitleLPVideo
+{
+    top: 10px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 30px;
+}
+
+.boxinnerdiv
+{
+    height: 5px;
+    width: 100%;
+    clear: both;
+}
+
+.flotleftdiv
+{
+    float: left;
+}
+
+
+.lpvideousericon
+{
+    width: 35px;
+    height:35px;
+    display:flex;
+    margin-left:3px;
+}
+
+.lpvideousernamemaindiv
+{
+    float: left;
+    margin-left: 6px;
+    margin-top: 10px;
+    font-size: 6px;
+}
+.lpvideousernamedatediv
+{
+    font-size: 6px;
+}
+
+.lpvideopublicicon
+{
+    width: 13px;
+    height:13px;
+    display:inline-block;
+    margin-left:40px;
+    margin-top: 12px;
+}
+
+.lpvideopublicdate
+{
+    float: left;
+    margin-left: 7px;
+    font-size: 8px;
+    margin-top: 14px;
+}
+/* ---------------------------------artist start ---------------------------------------------- */
+.boxartist {
+    height: 225px;
+    width: 18.4%;
+    box-sizing: border-box;
+    margin: 8px;
+    display: flex;
+    background-color: white;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  .boxartistinnerdiv
+{
+    height: 5px;
+    width: 100%;
+    clear: both;
+}
+.songTitleDiv
+{
+    padding: 0px;
+    font-size: 10px;
+    margin-left: 8px;
+    margin-top: 12px;
+    display: flex;
+}
+.boxartistImage{
+    width: 100%;
+    height: 84%;
+    margin-top: 30px;
+    display: flex;
+    clear: both;
+    border-top: 1px solid;color:#D3D3D3;
+  }
+  .artistImage{
+    width: 75%;
+    height: 75%;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 18px;
+  }
+/* ---------------------------------artist end---------------------------------------------- */
+
+
+
+
+
+
+
+
+
