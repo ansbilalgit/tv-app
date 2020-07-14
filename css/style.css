@@ -262,6 +262,17 @@ footer p {
     border-bottom: 3px solid #f0F0F0;
 }
 
+.content-caption-sub {
+    height: 50px;
+    /* background-color: #FFFFFF; */
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    padding-left: 10px;
+    margin: 10px auto;
+    /* border-bottom: 3px solid #f0F0F0; */
+}
+
 .main-content {
     flex-grow: 1;
     margin-left: 10px;
@@ -275,6 +286,133 @@ footer p {
     background-color: #ffffff;
 }
 
+.carousel-image-container {
+    width: 90%;
+    /* display: flex; */
+    position: relative;
+    height: 400px;
+}
+
+.carousel-image-third {
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    top: 75px;
+    z-index: 1;
+}
+
+.carousel-image-2nd {
+    height: 300px;
+    width: 74%;
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+    left: 13%;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.carousel-image-container img {
+    height: 100%;
+    max-width: 50%;
+}
+
+.carousel-image-main {
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    top: 25px;
+    z-index: 3;
+    /* left: 25px; */
+    text-align: center;
+}
+
+.carousel-image-icon {
+    position: absolute;
+    text-align: center;
+    z-index: 4;
+    width: 100%;
+    top: 164px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.video-card-wrapper {
+    width: calc(25% - 20px);
+    background: #ffffff;
+    margin-right: 20px;
+}
+
+.video-card-header {
+    height: 50px;
+    display: flex;
+}
+
+.video-card-thumbnail {
+    height: 100%;
+    margin-right: 5px;
+}
+
+.header-thumbnail {
+    height: 100%;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.user-details h4 {
+    margin: 0;
+}
+
+.small-text {
+    font-size: .5em;
+    opacity: .5;
+}
+
+.video-details {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-right: 5px;
+}
+
+.video-card-body {
+    width: 100%;
+    height: 260px;
+}
+
+.video-card-body img {
+    width: calc(100% - 4px);
+    height: 256px;
+    margin: 2px;
+    box-shadow: 0 0 2px 1px rgba(220, 220, 220, 0.5);
+}
+
+.video-card-footer {
+    height: 50px;
+    padding: 5px;
+}
+
+.video-card-footer h4 {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
 
 
 
