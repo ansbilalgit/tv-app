@@ -841,6 +841,149 @@ footer p {
 {
     height: 10px;
 }
+
+.VideoIconMainDivPlayList
+{
+    height: 140px;
+    width: 180px;
+    display: flex;
+}
+.playerListLogoDiv
+{
+    float: left;
+}
+.playerListDiscription
+{
+    float: left;
+}
+.playerListFontSize
+{
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.playerListCount
+{
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.PlayerListCountDate
+{
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 5px; 
+}
+.playerListcircleImageIcon
+{
+    width: 25px;
+    height:25px;
+    display:inline-block;
+    margin-left:5px;
+    margin-top: 4px;
+}
+.playerListMessagecounDiv
+{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.playerListSocialImageIcon
+{
+    width: 80px;
+    height:35px;
+    display:inline-block;
+    margin-left:54px;
+    margin-top: 4px;
+}
+.palyerListMessageImageIcon
+{
+    width: 20px;
+    height:20px;
+    margin-left:35px;
+    margin-top: 4px;
+}
+.playerListMessagecounDiv
+{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.playerListtVideoProgIconMainDiv
+{
+    height: 25px;
+    widows: 140px;
+    display:flex;
+}
+.playerlistHeadingTitlePlParentDiv
+{
+    height: 216px;
+    width: 64%;
+    margin-top: 12px;
+    display: flex;
+}
+/* .playerListSocialinfoMainDiv
+{
+    width: 400px;
+    float: right
+} */
+.PlayerListVideoIconMainDiv
+{
+    height: 170px;
+    widows: 170px;
+    display:inline-block;
+}
+.playerlistLiveStreamEmptyFirstDiv
+{
+    width: 100px;
+    float: left;
+    margin-left: 30px;
+}
+.playerListDeleteImageIconDiv
+{
+    width: 13px;
+    height:13px;
+    margin-top: 4px;
+    float: right;
+    margin-right: 20px;
+}
+.playerListSocialinfoMainDiv
+{
+    width: 300px;
+    float: right
+}
+.playerListSocialMainDiv
+{
+    height: 138px;
+    width: 65px;
+    float: right;
+    margin-top: 25px;
+}
+.playerListMessageMainDiv
+{
+    height: 138px;
+    width: 100px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+.playerListCircleMainDiv
+{
+    height: 138px;
+    width: 130px;
+    float: left;
+    margin-top: 25px
+}
+.playerListVideoSectionBGDiv
+{
+    height: 190px;
+    background-color: white;
+    width: 100%;
+}
+.playerListDeleteImageIconMainDiv
+{
+    height: 30px;
+}
 /* ------------------------------playlist end---------------------------------------------------- */
 
 
