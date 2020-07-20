@@ -972,7 +972,8 @@ footer p {
     height: 138px;
     width: 130px;
     float: left;
-    margin-top: 25px
+    margin-top: 25px;margin-left: -10px;
+    
 }
 .playerListVideoSectionBGDiv
 {
@@ -984,6 +985,22 @@ footer p {
 {
     height: 30px;
 }
+.playerListSocialImageIcon
+{
+    width: 80px;
+    height:35px;
+    display:inline-block;
+    margin-left:-15px;
+    margin-top: 4px;
+}
+.playerListMessageImageIcon
+{
+    width: 20px;
+    height:20px;
+    margin-left:5px;
+    margin-top: 9px;
+}
+
 /* ------------------------------playlist end---------------------------------------------------- */
 
 
